@@ -10,6 +10,21 @@ namespace Consoleart1
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("               BBBBBBBBBBBB         BBBBBBBBBBBB                  ");
+            Console.WriteLine("               BB        BBB        BB        BBB                 ");
+            Console.WriteLine("               BB        BB         BB        BB                  ");
+            Console.WriteLine("               BBBBBBBBBBB          BBBBBBBBBBB                   ");
+            Console.WriteLine("               BB        BB         BB        BB                  ");
+            Console.WriteLine("               BB        BBB        BB        BBB                 ");
+            Console.WriteLine("               BBBBBBBBBBBB         BBBBBBBBBBBB                  ");
+            Console.WriteLine("                                                                  ");
+            Console.WriteLine("                                                                  ");
+            Console.WriteLine("                                                                  ");
+            Console.WriteLine("                                                                  ");
+            Console.WriteLine("                                                                  ");
+
+
+            Console.ReadKey();
         }
     }
 }
