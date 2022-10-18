@@ -1,0 +1,8 @@
+C:\Users\bbbye803\Documents\BensSpork\C#\LoopingREALLL\LoopingREALLL\bin\Debug\LoopingREALLL.exe.config
+C:\Users\bbbye803\Documents\BensSpork\C#\LoopingREALLL\LoopingREALLL\bin\Debug\LoopingREALLL.exe
+C:\Users\bbbye803\Documents\BensSpork\C#\LoopingREALLL\LoopingREALLL\bin\Debug\LoopingREALLL.pdb
+C:\Users\bbbye803\Documents\BensSpork\C#\LoopingREALLL\LoopingREALLL\obj\Debug\LoopingREALLL.csproj.AssemblyReference.cache
+C:\Users\bbbye803\Documents\BensSpork\C#\LoopingREALLL\LoopingREALLL\obj\Debug\LoopingREALLL.csproj.SuggestedBindingRedirects.cache
+C:\Users\bbbye803\Documents\BensSpork\C#\LoopingREALLL\LoopingREALLL\obj\Debug\LoopingREALLL.csproj.CoreCompileInputs.cache
+C:\Users\bbbye803\Documents\BensSpork\C#\LoopingREALLL\LoopingREALLL\obj\Debug\LoopingREALLL.exe
+C:\Users\bbbye803\Documents\BensSpork\C#\LoopingREALLL\LoopingREALLL\obj\Debug\LoopingREALLL.pdb

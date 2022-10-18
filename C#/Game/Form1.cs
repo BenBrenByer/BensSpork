@@ -17,18 +17,31 @@ namespace Game
         Sprite p1;
         Chaser p2;
         Ball b1;
+        Ball b2;
+        Ball b3;
+        Ball b4;
+        Ball b5;
+
 
         public Form1()
         {
 
             InitializeComponent();
             c = new Canvas(this);
-            p1 = new Sprite(player);
+            p1 = new Sprite(player, Ballpicture, pictureBox6, pictureBox7, pictureBox8, pictureBox5);
             p2 = new Chaser(player2);
             b1 = new Ball(Ballpicture, 5, 5);
+            b2 = new Ball(pictureBox5, 5, 5);
+            b3 = new Ball(pictureBox6, 5, 5);
+            b4 = new Ball(pictureBox7, 5, 5);
+            b5 = new Ball(pictureBox8, 5, 5);
             c.Add(p1);
             c.Add(p2);
             c.Add(b1);
+            c.Add (b2);
+            c.Add (b3);
+            c.Add (b4);
+            c.Add (b5);
         }
         
         private void Form1_KeyDown(object sender, KeyEventArgs e)
@@ -40,40 +53,46 @@ namespace Game
                 progressBar1.Value--;
             }
 
+            if (e.KeyCode == Keys.Space)
+            {
+                p1.m_speed = 20;
+                p1.moveup();
+            }
+
 
             if (e.KeyCode == Keys.Left)
             {
-                p1.moveleft();
+                p2.moveleft(); 
             }
             if (e.KeyCode == Keys.Right)
             {
-                p1.moveright();
+                p2.moveright();
             }
             if (e.KeyCode == Keys.Up)
             {
-                p1.moveup();
+                p2.moveup();
             }
             if (e.KeyCode == Keys.Down)
             {
-                p1.movedown();
+                p2.movedown();
             }
             if (e.KeyCode == Keys.A)
             {
-                p2.moveleft();
+                p1.moveleft();
             }
             if (e.KeyCode == Keys.D)
             {
-                p2.moveright();
+                p1.moveright();
             }
             if (e.KeyCode == Keys.W)
             {
-                p2.moveup();
+                p1.moveup();
             }
             if (e.KeyCode == Keys.S)
             {
-                p2.movedown();
+                p1.movedown();
             }
-            if (e.KeyCode == Keys.Space)
+            if (e.KeyCode == Keys.L)
             {
                 PictureBox p = new PictureBox();
                 p.Location = player.Location;
@@ -104,7 +123,15 @@ namespace Game
             c.tick();
         }
 
+        private void Form1_Load(object sender, EventArgs e)
+        {
 
+        }
+
+        private void Form1_Load_1(object sender, EventArgs e)
+        {
+
+        }
     }
 
 }
