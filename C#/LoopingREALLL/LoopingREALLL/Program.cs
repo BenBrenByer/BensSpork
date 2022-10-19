@@ -12,6 +12,7 @@ namespace LoopingREALLL
         {
             int lower = 0;
             int upper = 0;
+
             //WriteLine("Enter a low number");
             //lower = int.Parse(ReadLine());
             //WriteLine(lower);
@@ -171,7 +172,22 @@ namespace LoopingREALLL
                 WriteLine();
             }
 
-            ReadKey();
+            WriteLine("\n \n \n \n \n \n \n \n \n" + "Assignment 2:" + "\n" + "1." + "----------------------------------------------------------------------------------------------------------------------");
+            
+            WriteLine("Input a value");
+
+                ReadLine();
+
+                int Input = int.Parse(ReadLine());
+
+            for (int i = 1; i < 10; i++)
+            {
+
+                Write(Input + i + Input * i);
+
+            }
+
+            ReadLine();
         }
     }
 }

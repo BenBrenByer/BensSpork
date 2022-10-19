@@ -1,0 +1,8 @@
+C:\Users\bbbye803\Documents\BensSpork\C#\Console Loops more\Console Loops more\bin\Debug\Console Loops more.exe.config
+C:\Users\bbbye803\Documents\BensSpork\C#\Console Loops more\Console Loops more\bin\Debug\Console Loops more.exe
+C:\Users\bbbye803\Documents\BensSpork\C#\Console Loops more\Console Loops more\bin\Debug\Console Loops more.pdb
+C:\Users\bbbye803\Documents\BensSpork\C#\Console Loops more\Console Loops more\obj\Debug\Console Loops more.csproj.AssemblyReference.cache
+C:\Users\bbbye803\Documents\BensSpork\C#\Console Loops more\Console Loops more\obj\Debug\Console Loops more.csproj.SuggestedBindingRedirects.cache
+C:\Users\bbbye803\Documents\BensSpork\C#\Console Loops more\Console Loops more\obj\Debug\Console Loops more.csproj.CoreCompileInputs.cache
+C:\Users\bbbye803\Documents\BensSpork\C#\Console Loops more\Console Loops more\obj\Debug\Console Loops more.exe
+C:\Users\bbbye803\Documents\BensSpork\C#\Console Loops more\Console Loops more\obj\Debug\Console Loops more.pdb
