@@ -11,18 +11,18 @@ namespace Survey_Questions
         static void Main(string[] args)
         {
             int x = 0;
-            string s;
+            string player;
             string a;
             string b;
 
             Console.WriteLine(@"What is Nick Cage's Favorite Color?" + "\n \n A. Red \n \n B. Blue \n \n C. Green \n \n D. Purple");
 
-            s = (Console.ReadLine());
+            player = (Console.ReadLine());
 
-            Console.WriteLine(s);
+            Console.WriteLine(player);
             
 
-            if (s == "A")
+            if (player == "A")
             {
                 x = x + 1;
                 Console.WriteLine("\n \n This is Correct. \n \n");
@@ -40,7 +40,7 @@ namespace Survey_Questions
 
             a = (Console.ReadLine());
 
-            Console.WriteLine(s);
+            Console.WriteLine(player);
 
 
             if (a == "A")
@@ -61,7 +61,7 @@ namespace Survey_Questions
 
             b = (Console.ReadLine());
 
-            Console.WriteLine(s);
+            Console.WriteLine(player);
 
 
             if (b == "B")
@@ -97,10 +97,10 @@ namespace Survey_Questions
 
             a = (Console.ReadLine());
             
-            Console.WriteLine(s);
+            Console.WriteLine(player);
             Console.WriteLine(@"Nick Cage's favorite color is {0}.", a);
-            Console.WriteLine(@"Nick Cage's favorite color is {0}.", s);
-            Console.WriteLine(@"Nick Cage's favorite color is {0}.", s);
+            Console.WriteLine(@"Nick Cage's favorite color is {0}.", player);
+            Console.WriteLine(@"Nick Cage's favorite color is {0}.", player);
 
             Console.ReadKey();
         }
